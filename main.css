@@ -1,0 +1,81 @@
+html {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: gray;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header div#DCInterest,
+header nav {
+  margin: 5px 20px 5px 20px;
+}
+
+header div#DCInterest {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+header div#DCInterest * {
+  margin: 0px 5px 0px 5px;
+}
+
+header div#DCInterest h1 {
+  vertical-align: middle;
+  font-size: 1rem;
+  display: inline;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 5px;
+}
+
+main {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 50px 20px 50px 20px;
+  overflow: scroll;
+}
+
+main img {
+  width: 200px;
+}
+
+main .row-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+main .row-container .item {
+  height: 100%;
+  width: 200px;
+  margin: 10px;
+  position: relative;
+}
+
+main .row-container .item h1 {
+  position: absolute;
+  top: 0;
+  font-size: 1rem;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}

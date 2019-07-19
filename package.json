@@ -1,0 +1,24 @@
+{
+  "name": "dcinterest",
+  "version": "1.0.0",
+  "description": "Your task is to recreate the design for DCinterest (see design.jpeg) which is inspired by Pinterest. The design is pretty simple - it includes a navbar at the top, and a collection of \"cards\" displayed below it. To achieve this layout, you will use both Bootstrap and flex styling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node-sass scss/main.scss -o css",
+    "css:watch": "node-sass scss/main.scss -wo ./ --output-style expanded"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/segakazzz/DCinterest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/segakazzz/DCinterest/issues"
+  },
+  "homepage": "https://github.com/segakazzz/DCinterest#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
