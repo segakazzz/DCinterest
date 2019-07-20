@@ -43,35 +43,29 @@ header nav ul li {
   margin: 5px;
 }
 
-main {
-  width: auto;
+.item-group {
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
   padding: 50px 20px 50px 20px;
   overflow: scroll;
+  width: 100%;
+  justify-content: space-around;
+  box-sizing: border-box;
 }
 
-main img {
+.item-group img {
   width: 200px;
 }
 
-main .row-container {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: nowrap;
-}
-
-main .row-container .item {
+.item-group .item {
   height: 100%;
   width: 200px;
   margin: 10px;
   position: relative;
 }
 
-main .row-container .item h1 {
+.item-group .item h1 {
   position: absolute;
   top: 0;
   font-size: 1rem;
