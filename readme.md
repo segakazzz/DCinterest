@@ -1,5 +1,5 @@
 ### Link to this work
-(https://segakazzz.github.io/DCinterest/)
+https://segakazzz.github.io/DCinterest/
 
 # DCinterest
 
