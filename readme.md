@@ -1,3 +1,5 @@
+(Link to this work - https://segakazzz.github.io/DCinterest/)[https://segakazzz.github.io/DCinterest/]
+
 # DCinterest
 
 Your task is to recreate the design for DCinterest (see design.jpeg) which is inspired by Pinterest. The design is pretty simple - it includes a navbar at the top, and a collection of "cards" displayed below it. To achieve this layout, you will use both Bootstrap and flex styling
